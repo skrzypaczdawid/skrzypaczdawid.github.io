@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --color-gray: #575757;
+  --color-blue: #fc65c2;
+  --color-background: #0d1117;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: var(--color-background);
+}
+
+.progress-container {
+  max-width: 100%;
+  width: 350px;
+  justify-content: space-between;
+  position: relative;
+  display: flex;
+}
+
+.progress-container::before {
+  content: "";
+  background-color: var(--color-gray);
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  top: 45%;
+  z-index: -1;
+}
+
+.progress {
+  background-color: var(--color-blue);
+  width: 0%;
+  height: 4px;
+  position: absolute;
+  top: 45%;
+  z-index: -1;
+  transition: 0.4s ease;
+}
+
+.progress::before {
+  background-color: var(--color-gray);
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  top: 45%;
+  z-index: -1;
+}
+
+.container {
+  text-align: center;
+}
+
+.circle {
+  background-color: var(--color-gray);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease;
+}
+
+.circle.active {
+  background-color: var(--color-blue);
+}
+
+.btn {
+  background-color: var(--color-blue);
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+}
+
+.btn:disabled {
+  background-color: var(--color-gray);
+  cursor: not-allowed;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn:focus {
+  outline: 0;
+}
