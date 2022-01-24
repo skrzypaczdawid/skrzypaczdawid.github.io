@@ -14,4 +14,4 @@ This is an example how it should look like when another card is extended.
 
 # Inspiration
 
-This project was inspired on Udemy course, make sure to [check it out](https://www.udemy.com/course/50-projects-50-days/)
+This project was inspired on Udemy course, make sure to [check it out](https://www.udemy.com/course/50-projects-50-days/){:target="\_blank" rel="noopener"}
