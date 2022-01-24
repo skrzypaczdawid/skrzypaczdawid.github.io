@@ -10,7 +10,11 @@ Just wait to fully load
 
 ![This is how it should look like when fully loaded](./Images/Project4-bg-less.png?raw=true "Project4")
 
-This is an how it should look like when site is fully loaded.
+This is how it should look like when site is fully loaded.
+
+# Side note
+
+Blur of background image is getting lower while percentage is getting higher. It was made using mapping found on stackoverflow
 
 # Inspiration
 
