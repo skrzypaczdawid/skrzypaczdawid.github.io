@@ -40,6 +40,17 @@ p {
   color: #fff;
 }
 
+#logo {
+  width: 200px;
+  height: 200px;
+  filter: blur(0px);
+  filter: brightness(100%);
+  border-radius: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
 .project {
   width: 400px;
   height: 200px;
@@ -66,7 +77,8 @@ p {
 img {
   width: 400px;
   height: 200px;
-  filter: blur(0.5px);
+  filter: blur(2px);
+  filter: brightness(50%);
   border-radius: 15px;
 }
 
@@ -79,4 +91,11 @@ a {
 #projects-down {
   position: absolute;
   bottom: 0px;
+}
+
+.projects p {
+  position: absolute;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
 }
