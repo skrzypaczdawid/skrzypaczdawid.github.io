@@ -13,6 +13,7 @@ body {
   justify-content: center;
   margin: 0;
   background-color: #0d1117;
+  position: relative;
 }
 
 .container {
@@ -58,4 +59,14 @@ body {
   .panel:nth-of-type(5) {
     display: none;
   }
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 48px;
+  position: fixed;
+  z-index: 2;
+  top: 10px;
+  left: 10px;
 }
