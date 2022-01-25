@@ -21,11 +21,15 @@ body {
 }
 
 h1 {
-  font-size: 150px;
+  font-size: 8vw;
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.5vw;
+}
+
+h2 {
+  font-size: 1.5vw;
 }
 
 .aboutme {
@@ -36,13 +40,12 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 10px;
   color: #fff;
 }
 
 #logo {
-  width: 200px;
-  height: 200px;
+  width: 15vw;
+  height: 15vw;
   filter: blur(0px);
   filter: brightness(100%);
   border-radius: 0px;
@@ -52,8 +55,8 @@ p {
 }
 
 .project {
-  width: 400px;
-  height: 200px;
+  width: 20vw;
+  height: 22vh;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -75,8 +78,8 @@ p {
 }
 
 img {
-  width: 400px;
-  height: 200px;
+  width: 20vw;
+  height: 22vh;
   filter: blur(2px);
   filter: brightness(50%);
   border-radius: 15px;
@@ -96,6 +99,6 @@ a {
 .projects p {
   position: absolute;
   color: #fff;
-  font-size: 40px;
+  font-size: 2.5vw;
   font-weight: bold;
 }
