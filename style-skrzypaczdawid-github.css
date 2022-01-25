@@ -2,11 +2,11 @@
 
 * {
   margin: 0;
-  overflow: hidden;
   font-family: "Poppins", sans-serif;
 }
 
 body {
+  overflow-x: hidden;
   background: rgb(67, 67, 67);
   background: linear-gradient(
     0deg,
@@ -68,7 +68,43 @@ img {
   border-radius: 15px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1px) {
+  .body {
+    overflow: visible;
+  }
+  .aboutme {
+    width: 100vw;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    align-self: center;
+  }
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .projects {
+    height: 60vh;
+  }
+  .project,
+  img {
+    width: 150px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .body {
+    overflow: visible;
+  }
   .aboutme {
     width: 100vw;
     text-align: center;
