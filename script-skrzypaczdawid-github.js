@@ -3,6 +3,8 @@ const two = document.querySelector('.two');
 const three = document.querySelector('.three');
 const four = document.querySelector('.four');
 
+alert('This site is still being developed. You may encounter some bugs.')
+
 one.addEventListener('click', () => {
     document.location.href = './Project1 - extending cards/index.html'
 })
