@@ -3,7 +3,11 @@ const two = document.querySelector('.two');
 const three = document.querySelector('.three');
 const four = document.querySelector('.four');
 
-alert('This site is still being developed. You may encounter some bugs.')
+var alerted = localStorage.getItem('alerted') || '';
+    if (alerted != 'yes') {
+        alert('This site is still being developed. You may encounter some bugs.')
+     localStorage.setItem('alerted','yes');
+    }
 
 one.addEventListener('click', () => {
     document.location.href = './Project1 - extending cards/index.html'
